@@ -19,4 +19,7 @@ func main() {
 	}
 
 	fmt.Println(values)
+
+	// Fungsi untuk mendapatkan panjang array walaupun tidak ada datanya
+	fmt.Println(len(values))
 }
