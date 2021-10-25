@@ -2,6 +2,7 @@ package other
 
 import "fmt"
 
-func SayHello(name string) {
+// Huruf kecil tidak bisa diakses di luar, Hurup besar awalnya bisa diakses
+func sayHello(name string) {
 	fmt.Println("Hello", name)
 }
